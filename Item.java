@@ -127,7 +127,8 @@ public class Item implements SaveAppTable {
 		for (int j = 0; j< items.size();j++) {
 			itemStrings[j]=items.get(j);
 		}
-		
+		int a=1;
+		a++;
 		return itemStrings;
 	}
 }
