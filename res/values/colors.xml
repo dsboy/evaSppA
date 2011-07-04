@@ -1,0 +1,10 @@
+
+    <resources>
+        <color name="yellow">#F0EBD100</color>
+        <color name="green">#747C4D</color>
+        <color name="white">#F2F2EA</color>
+        <color name="black">#000000</color>
+        <color name="red">#FF0000</color>
+        <color name="whitedark">#E8E8EC</color>
+        <color name="transparent">#80111111</color>
+    </resources>

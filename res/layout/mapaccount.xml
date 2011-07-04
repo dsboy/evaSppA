@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<!-- _________________________ MAP _______________________________________________ -->
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:enabled="true"
+		android:clickable="true"
+		android:apiKey="0NyI_ZzscCH29vPdHASDme-uj8BIG8M2ojh1Qxg" />
+	<!-- 0NyI_ZzscCH29vPdHASDme-uj8BIG8M2ojh1Qxg NEW MOBILE-->
+	<!-- 0NyI_ZzscCH0gLCjjV8X4yPy51Fo8VJTBdJvGYg OLD SIMULATOR-->
+	<!-- _________________________ ZOOM _______________________________________________ -->
+	<LinearLayout
+		android:id="@+id/zoom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="false">
+	</LinearLayout>
+</LinearLayout>

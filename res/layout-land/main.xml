@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<!-- _________________________HEAD_______________________________________________ -->
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/coloryellow">
+		<!-- _________________________ACCOUNT_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="horizontal"
+			android:paddingTop="10dip"
+			android:paddingBottom="10dip">
+			<TextView
+				android:text="@string/strAccountSelection"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/txtAccountSelection"
+				android:textColor="@color/black">
+			</TextView>
+		</LinearLayout>
+		<!-- _________________________BUTTON_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_weight="7"
+			android:orientation="vertical"
+			android:layout_height="fill_parent">
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="center_vertical|center_horizontal"
+				android:orientation="horizontal">
+				<ImageButton
+					android:background="@drawable/changeaccount"
+					android:id="@+id/btnAccountSelection"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:paddingTop="10dip"
+					android:paddingBottom="10dip"></ImageButton>
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<!-- _________________________BODY_______________________________________________ -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal">
+		<!-- _________________________subBODY1_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton
+					android:background="@color/white"
+					android:id="@+id/btnAdd"
+					android:src="@drawable/add"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtAdd"
+					android:text="@string/strAdd"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton
+					android:background="@color/white"
+					android:id="@+id/btnTake"
+					android:src="@drawable/take"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtTake"
+					android:text="@string/strTake"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="1dp"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="20dp"
+			android:background="@drawable/coloryellow">
+			<View
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/txtAccount"
+				android:textColor="@color/black">
+			</View>
+		</LinearLayout>
+		<!-- _________________________subBODY2_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton
+					android:background="@color/white"
+					android:id="@+id/btnAll"
+					android:src="@drawable/all"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtAll"
+					android:text="@string/strAll"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton
+					android:background="@color/white"
+					android:id="@+id/btnMap"
+					android:src="@drawable/map"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtMap"
+					android:text="@string/strMap"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+		<!-- _________________________subBODY3_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton
+					android:background="@color/white"
+					android:id="@+id/btnAccountEdit"
+					android:src="@drawable/account"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtAccountEdit"
+					android:text="@string/strAccountEdit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton
+					android:background="@color/white"
+					android:id="@+id/btnPlot"
+					android:src="@drawable/chart"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtPlot"
+					android:text="@string/strPlot"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<!-- _________________________STATE_______________________________________________ -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="2.5"
+		android:orientation="horizontal"
+		android:background="@color/yellow">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView
+				android:text="@string/strPresentation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="2"
+				android:weightSum="2"
+				android:orientation="horizontal">
+				<TextView
+					android:text="@string/strBudget"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtBudget"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="2"
+				android:weightSum="2"
+				android:orientation="horizontal">
+				<TextView
+					android:text="@string/strNumberOfDays"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				<TextView
+					android:id="@+id/txtNumberOfDays"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

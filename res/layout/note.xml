@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<!-- _________________________HOME_______________________________________________ -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/coloryellow">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="horizontal"
+			android:paddingTop="10dip"
+			android:paddingBottom="10dip">
+			<TextView
+				android:text="@string/strAccount"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/txtAccount"
+				android:textColor="@color/black">
+			</TextView>
+		</LinearLayout>
+	</LinearLayout>
+	<!-- _________________________BODY_______________________________________________ -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:orientation="vertical">
+		<!-- _________________________NOTE_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/edtNote"
+				android:lines="5"
+				android:gravity="top|left"
+				android:inputType="textMultiLine"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"></EditText>
+		</LinearLayout>
+		<!-- _________________________BUTTONS_______________________________________________ -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<!-- _________________________ SAVE _______________________________________________ -->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="horizontal">
+				<Button
+					android:text="@string/strSave"
+					android:id="@+id/btnSaveNote"
+					android:gravity="center_horizontal|center_vertical"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"></Button>
+			</LinearLayout>
+			<!-- _________________________ DISCARD _______________________________________________ -->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="horizontal">
+				<Button
+					android:text="@string/strDiscard"
+					android:id="@+id/btnDiscardNote"
+					android:gravity="center_horizontal|center_vertical"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

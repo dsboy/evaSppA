@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<TextView
+		android:text="Account:"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:background="@color/yellow"
+		android:textColor="@color/black"
+		android:paddingTop="10dip"
+		android:paddingBottom="10dip">
+	</TextView>
+	<TextView
+		android:id="@+id/txtHeader"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="This text view should act as header  " />
+	<ListView
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"></ListView>
+	<TextView
+		android:layout_height="wrap_content"
+		android:id="@+id/txtFooter"
+		android:layout_width="wrap_content"></TextView>
+</LinearLayout>
