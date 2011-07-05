@@ -1,5 +1,6 @@
 package com.loopback.androidapps.saveapp;
 
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -17,7 +18,7 @@ public class DBManager extends SQLiteOpenHelper {
 	/*-----------------------------------TABLE CONSTANTS-----------------------------------------------------/
 	/********************************************************************************************************/
 	// General Constants
-	private static final String DB_NAME = "db";
+	private static final String DB_NAME = "/mnt/sdcard/saveapp/db";
 	private static final int DB_VERSION = 1;
 	public static final String KEY_ID = "_id";
 
